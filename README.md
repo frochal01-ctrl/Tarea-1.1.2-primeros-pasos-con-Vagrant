@@ -62,5 +62,6 @@ cat <<EOF > /var/www/html/index.html
 EOF
 ```
 6. Apache en funcinamiento
+   ![Apache running](image/Captura)
    
 
