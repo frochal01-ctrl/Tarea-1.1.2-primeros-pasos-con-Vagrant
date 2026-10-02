@@ -63,5 +63,6 @@ EOF
 ```
 6. Apache en funcinamiento
    ![Apache running](image/Captura%20de%20pantalla%20de%202026-10-02%2013-35-14.png)
+   ![Pagina de apache en funcionamiento](image/Captura%20de%20pantalla%20de%202026-10-02%2013-36-35.png)
    
 
