@@ -29,7 +29,7 @@
 
    4.Como he preparado Apache
    En config.vm.provision "shell", inline: <<-SHELL
-    he rediconado al archivo septup.sh que tiene la configuración para instalar      apache y para crear una web personalizada
+    he rediconado al archivo septup.sh que tiene la configuración para instalar      apache y para crear una web personalizada  
    5. Bloque de codigp
 ```bash
 #!/bin/bash
