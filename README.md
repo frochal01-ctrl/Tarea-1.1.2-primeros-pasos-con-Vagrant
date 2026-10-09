@@ -57,7 +57,7 @@
    En config.vm.provision "shell", inline: <<-SHELL
      he rediconado al archivo septup.sh que tiene la configuración para instalar apache y para crear una web personalizada  
   
-   6. Bloque de codigp
+   6. Bloque de codigp de setup.sh  
 ```bash
 #!/bin/bash
 
