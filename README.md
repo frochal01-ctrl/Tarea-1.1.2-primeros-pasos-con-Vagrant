@@ -3,8 +3,10 @@
      Es un software que permite crear maquinas virtuales automaticamente desde un archivo de texto.  
      Es util porque solo neceistas un documento de texto para crear la maquina y que la maquina sera igual en todos los equipos
 2. Esquema de red de las interfaces  
-   ![Esquema](image/Captura%20de%20pantalla%20de%202026-10-02%2011-05-03.png)
+   ![Esquema](image/Captura%20de%20pantalla%20de%202026-10-02%2011-05-03.png)  
+
 3.Configuración de Vagrantfile  
+   
      Vagrant.configure("2") do |config| significa que vamos a usar la sintaxis de la versión 2 de configuración  
      config.vm Ajustes de la Máquina   
      config.vm.box = "base" Define el sistema operativo base  que se descargará para la máquina virtual  
