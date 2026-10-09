@@ -36,7 +36,9 @@
          . Red Pública (Bridged): Con cualquier dispositivo de tu red local e Internet. Funciona como un ordenador real más                    conectado al router  
         1.9.2 Qué función cumple el reenvío de puertos  
          . Permite acceder a un servicio de la máquina (como un servidor web en el puerto 80) escribiendo localhost:8080  
-        1.9.3 En una tabla breve, indica cuándo usarías up, status, ssh, reload, provision, halt y destroy; marca cuáles llegaste                 a ejecutar.
+        1.9.3 Qué es /vagrant  
+           . es una carpeta compartida por defecto dentro de la máquina virtual y dentro tiene exactamente los mismos archivos                     que tienes en la carpeta de tu ordenador físico donde creaste el entorno  
+        1.9.4 En una tabla breve, indica cuándo usarías up, status, ssh, reload, provision, halt y destroy; marca cuáles llegaste                 a ejecutar.
    
 | Comando | Cuándo usarlo | Ejecutado |
 | :--- | :--- | :---: |
@@ -47,8 +49,7 @@
 | vagrant provision | Ejecutar los scripts de instalación de nuevo. | Sí  |
 | vagrant halt | Apagar la máquina sin borrar nada. | Sí  |
 | vagrant destroy | Borrar la máquina por completo del disco. | No |  
-          1.9.4 Qué es /vagrant  
-           . es una carpeta compartida por defecto dentro de la máquina virtual y dentro tiene exactamente los mismos archivos                     que tienes en la carpeta de tu ordenador físico donde creaste el entorno  
+         
 3. Esquema de red de las interfaces  
    ![Esquema](image/esq.png)  
 
