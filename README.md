@@ -18,7 +18,7 @@
          . Durante el primer arranque, cunado se lo pides explicitamente y cunado lo fuerzas al reiniciar el proceso  
       1.6 Qué diferencia hay entre inline: y path:  
          . inline: El código se escribe dentro del propio Vagrantfile. Sirve para comandos cortos de 1 o 2 líneas.  
-         . path: El código está en un archivo externo (como script.sh). Sirve para scripts largos, limpios y ordenados.
+         . path: El código está en un archivo externo (como script.sh). Sirve para scripts largos, limpios y ordenados.  
       1.7 Explica qué ocurre si modificas el script después del primer vagrant up y cómo lo ejecutarías de nuevo  
          . No pasará nada de forma automática. Vagrant no detecta los cambios en tiempo real ni vuelve a ejecutar el script por sí                 solo si la máquina ya está creada  
          . Si la máquina está encendida: Ejecuta vagrant provision. Esto corre el script inmediatamente dentro de la máquina                      sin necesidad de apagarla.  
