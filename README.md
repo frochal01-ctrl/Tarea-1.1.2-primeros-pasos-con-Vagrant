@@ -33,26 +33,26 @@
    4.Mi primera máquina en Vagrant  
    Validar vagrantfile  
    vagrant validate  
-
+     <img src="images/vagravali.png">  
    Arrancar la maquina  
    vagrant up  
-
+<img src="images/up">  
    Acceder a la maquina virtual  
    vagrant ssh  
-
+<img src="images/ssh">  
 
    Nombre de la máquina:  
    hostname  
-
+<img src="images/hostname.pns">  
    Versión de Debian:  
    lsb_release -a  
-
+<img src="images/version.png">  
    Interfaces de red y direcciones IP  
    ip a  
-
+<img src="images/ipa.png">  
    Rutas de red  
    ip route  
-   
+   <img src="images/iproute">  
    5.Como he preparado Apache  
    En config.vm.provision "shell", inline: <<-SHELL
      he rediconado al archivo septup.sh que tiene la configuración para instalar apache y para crear una web personalizada  
