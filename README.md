@@ -39,11 +39,11 @@
 <img src="image/up">  
    Acceder a la maquina virtual  
    vagrant ssh  
-<img src="image/ssh">  
+<img src="image/ssh.png">  
 
    Nombre de la máquina:  
    hostname  
-<img src="image/hostname.pns">  
+<img src="image/hostname.png">  
    Versión de Debian:  
    lsb_release -a  
 <img src="image/version.png">  
@@ -52,7 +52,7 @@
 <img src="image/ipa.png">  
    Rutas de red  
    ip route  
-   <img src="image/iproute">  
+   <img src="image/iproute.png">  
    5.Como he preparado Apache  
    En config.vm.provision "shell", inline: <<-SHELL
      he rediconado al archivo septup.sh que tiene la configuración para instalar apache y para crear una web personalizada  
