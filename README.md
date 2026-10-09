@@ -4,7 +4,7 @@
      Es util porque solo neceistas un documento de texto para crear la maquina y que la maquina sera igual en todos los equipos
 
 2. Esquema de red de las interfaces  
-   ![Esquema](image/Captura%20de%20pantalla%20de%202026-10-02%2011-05-03.png)  
+   ![Esquema](image/esqpng)  
 
 3.Configuración de Vagrantfile  
    
