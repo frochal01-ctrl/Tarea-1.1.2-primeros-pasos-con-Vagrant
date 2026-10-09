@@ -48,7 +48,7 @@
 | vagrant halt | Apagar la máquina sin borrar nada. | Sí  |
 | vagrant destroy | Borrar la máquina por completo del disco. | No |  
           1.9.4 Qué es /vagrant  
-           . es una carpeta compartida por defecto dentro de la máquina virtual. y dentro tiene exactamente los mismos archivos                     que tienes en la carpeta de tu ordenador físico donde creaste el entorno  
+           . es una carpeta compartida por defecto dentro de la máquina virtual y dentro tiene exactamente los mismos archivos                     que tienes en la carpeta de tu ordenador físico donde creaste el entorno  
 3. Esquema de red de las interfaces  
    ![Esquema](image/esq.png)  
 
