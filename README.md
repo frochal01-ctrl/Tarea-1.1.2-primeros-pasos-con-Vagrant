@@ -2,8 +2,12 @@
 1. ¿Què es Vagrant? y porque resulta util  
      Es un software que permite crear maquinas virtuales automaticamente desde un archivo de texto.  
      Es util porque solo neceistas un documento de texto para crear la maquina y que la maquina sera igual en todos los equipos
-
-2. Esquema de red de las interfaces  
+ 1.1 distingue el anfitrión, el proveedor de virtualización, la box y la máquina virtual
+     • Anfitrión (Host): Tu ordenador físico real (tu portátil, su procesador, su RAM y su sistema operativo).
+     • Proveedor: El programa de virtualización (como VirtualBox) que permite crear y gestionar entornos virtuales.
+     • Box: El molde o plantilla descargable (un archivo con el sistema operativo base) usado para crear la máquina rápidamente.
+     • Máquina Virtual (VM): El ordenador virtual final que se crea a partir de la Box y que se ejecuta de forma aislada dentro de tu ordenador.
+3. Esquema de red de las interfaces  
    ![Esquema](image/esq.png)  
 
 3.Configuración de Vagrantfile  
