@@ -2,6 +2,7 @@
 1. ¿Què es Vagrant? y porque resulta util  
      Es un software que permite crear maquinas virtuales automaticamente desde un archivo de texto.  
      Es util porque solo neceistas un documento de texto para crear la maquina y que la maquina sera igual en todos los equipos
+
 2. Esquema de red de las interfaces  
    ![Esquema](image/Captura%20de%20pantalla%20de%202026-10-02%2011-05-03.png)  
 
@@ -29,10 +30,34 @@
      config.vm.provision Automatización  
      config.vm.provision "shell", inline: <<-SHELL Activa el aprovisionamiento automático. Le dice a Vagrant que, nada más arrancar la máquina por primera vez, ejecute los comandos de terminal
 
-   4.Como he preparado Apache
+   4.Mi primera máquina en Vagrant  
+   Validar vagrantfile  
+   vagrant validate  
+
+   Arrancar la maquina  
+   vagrant up  
+
+   Acceder a la maquina virtual  
+   vagrant ssh  
+
+
+   Nombre de la máquina:  
+   hostname  
+
+   Versión de Debian:  
+   lsb_release -a  
+
+   Interfaces de red y direcciones IP  
+   ip a  
+
+   Rutas de red  
+   ip route  
+   
+   5.Como he preparado Apache  
    En config.vm.provision "shell", inline: <<-SHELL
-    he rediconado al archivo septup.sh que tiene la configuración para instalar      apache y para crear una web personalizada  
-   5. Bloque de codigp
+     he rediconado al archivo septup.sh que tiene la configuración para instalar apache y para crear una web personalizada  
+  
+   6. Bloque de codigp
 ```bash
 #!/bin/bash
 
@@ -63,7 +88,7 @@ cat <<EOF > /var/www/html/index.html
 </html>
 EOF
 ```
-6. Apache en funcinamiento
+7. Apache en funcinamiento
    ![Apache running](image/Captura%20de%20pantalla%20de%202026-10-02%2013-35-14.png)
    ![Pagina de apache en funcionamiento](image/Captura%20de%20pantalla%20de%202026-10-02%2013-36-35.png)
    
